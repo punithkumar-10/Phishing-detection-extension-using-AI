@@ -14,6 +14,18 @@ Phishy is a cutting-edge browser extension designed to protect users from phishi
 - ✅ Safe browsing recommendations
 - ✅ Lightweight and easy to use
 
+## 📸 Screenshots
+Here are some previews of Phishy in action:
+
+![Phishy Browser Extension](screenshots/screenshot1.png)
+*Phishy detecting a phishing website in real-time.*
+
+![Phishy Safe URL Check](screenshots/screenshot2.png)
+*Checking a safe website for phishing threats.*
+
+![Phishy Safe URL Check](screenshots/screenshot3.png)
+*Checking a unsafe website for phishing threats.*
+
 ## Setup Instructions
 Follow these steps to set up and use the Phishy extension:
 
