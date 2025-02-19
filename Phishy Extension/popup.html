@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phishy</title>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="popup.css" rel="stylesheet">
+    <style>
+      @font-face {
+        font-family: 'Josefin Sans';
+        src: url('fonts/JosefinSans-Regular.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Russo One';
+        src: url('fonts/RussoOne-Regular.woff2') format('woff2');
+      }
+      body {
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      h1 {
+        font-family: 'Russo One', sans-serif;
+      }
+      #result {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        border: 2px solid black;
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1>Phishy</h1>
+      <p class="subtitle">An AI-enabled Phishing Detection Plugin</p>
+      
+      <h2 id="site_msg">Waiting for scan...</h2>
+      
+      <button class="button-85" id="checkButton">Check Current URL</button>
+      
+      <ul id="features" class="list-unstyled mt-3">
+        <li>✔️ Real-time phishing detection</li>
+        <li>✔️ AI-powered analysis</li>
+        <li>✔️ Safe browsing recommendations</li>
+      </ul>
+      
+      <div class="alert mt-3" id="result" role="alert" style="display: none;"></div>
+    </div>
+    
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
