@@ -41,7 +41,15 @@ Make sure you have **Python 3.8+** installed. Then, install the required depende
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Start the Backend Server
+### 3️⃣ Get Groq API Key
+1. Visit [Groq API](https://groq.com/) and sign up for an API key.
+2. Create a `.env` file in the **Backend** directory.
+3. Add the API key to the `.env` file as follows:
+   ```sh
+   GROQ_API_KEY=your_api_key_here
+   ```
+
+### 4️⃣ Start the Backend Server
 Navigate to the backend directory and run the FastAPI server using Uvicorn:
 ```sh
 cd Backend
@@ -49,7 +57,7 @@ uvicorn main:app --reload
 ```
 The server should now be running on `http://127.0.0.1:8000/`.
 
-### 4️⃣ Load the Chrome Extension
+### 5️⃣ Load the Chrome Extension
 1. Open **Google Chrome** and go to `chrome://extensions/`.
 2. Enable **Developer Mode** (toggle in the top right corner).
 3. Click **Load Unpacked** and select the **Phishy Extension** folder.
@@ -58,10 +66,3 @@ The server should now be running on `http://127.0.0.1:8000/`.
 ## 🔗 GitHub Repository
 For more details and updates, visit the official repository:
 [Phishy GitHub Repo](https://github.com/punithkumar-10/Phishing-detection-extension-using-AI)
-
-## 🚀 Contribute
-Feel free to contribute by submitting issues or pull requests. Let's make the web a safer place together!
-
----
-Made with ❤️ by [Punith Kumar](https://github.com/punithkumar-10/)
-
