@@ -66,3 +66,10 @@ The server should now be running on `http://127.0.0.1:8000/`.
 ## 🔗 GitHub Repository
 For more details and updates, visit the official repository:
 [Phishy GitHub Repo](https://github.com/punithkumar-10/Phishing-detection-extension-using-AI)
+
+## 🚀 Contribute
+Feel free to contribute by submitting issues or pull requests. Let's make the web a safer place together!
+
+---
+Made with ❤️ by [Punith Kumar](https://github.com/punithkumar-10/)
+
