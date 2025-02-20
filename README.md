@@ -26,7 +26,7 @@ Here are some previews of Phishy in action:
 ![Phishy Safe URL Check](screenshots/screenshot3.png)
 *Checking a unsafe website for phishing threats.*
 
-## Setup Instructions
+## Setup Instructions 
 Follow these steps to set up and use the Phishy extension:
 
 ### 1️⃣ Clone the Repository
