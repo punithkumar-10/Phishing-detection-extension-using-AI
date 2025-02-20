@@ -39,7 +39,7 @@ cd Phishing-detection-extension-using-AI
 Make sure you have **Python 3.8+** installed. Then, install the required dependencies:
 ```sh
 pip install -r requirements.txt
-```
+``` 
 
 ### 3️⃣ Get Groq API Key
 1. Visit [Groq API](https://groq.com/) and sign up for an API key.
