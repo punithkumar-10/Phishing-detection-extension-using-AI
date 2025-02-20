@@ -62,7 +62,7 @@ The server should now be running on `http://127.0.0.1:8000/`.
 2. Enable **Developer Mode** (toggle in the top right corner).  
 3. Click **Load Unpacked** and select the **Phishy Extension** folder.
 4. The extension is now ready to use! Click on it to check URLs for phishing threats.
-
+ 
 ## 🔗 GitHub Repository
 For more details and updates, visit the official repository:
 [Phishy GitHub Repo](https://github.com/punithkumar-10/Phishing-detection-extension-using-AI)
